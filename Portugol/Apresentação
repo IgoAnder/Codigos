@@ -1,0 +1,19 @@
+Algoritmo "apresentação"
+// Disciplina   : [Matemática Itinerário]
+// Professor   : Igo Anderson
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 21/05/2025
+Var
+nome,prof:caractere
+idade:inteiro
+Inicio
+   escreva("Digite seu nome:")
+   leia(nome)
+   escreva("Digite sua idade:")
+   leia(idade)
+   escreva("Qual a sua profissâo?")
+   leia(prof)
+   escreva("Olá, meu nome é ",nome,", tenho ",idade," anos de idade e sou ",prof)
+
+Fimalgoritmo
