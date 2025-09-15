@@ -1,0 +1,27 @@
+#include <stdio.h>
+// Ler e exibir os elementos de uma matriz mxn
+int main()
+{
+    int i, j, m, n;
+    printf("Digite o numero de linhas e colunas da matriz, respectivamente:");
+    scanf("%d %d", &m, &n);
+    int matriz[m][n];
+    for (i = 0; i < m; i++)
+    {
+        for (j = 0; j < n; j++)
+        {
+            printf("Digite o termo da linha %d e coluna %d da matriz:",i+1,j+1);
+            scanf("%d", &matriz[i][j]);
+        }
+    }
+    printf("A matriz digitada foi:\n");
+    for (i = 0; i < m; i++)
+    {
+        for (j = 0; j < n; j++)
+        {
+            printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
