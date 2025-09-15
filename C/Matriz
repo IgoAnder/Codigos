@@ -1,0 +1,24 @@
+#include <stdio.h>
+// Ler e exibir os elementos de uma matriz 3x2
+int main()
+{
+    int i, j, matriz[3][2];
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 2; j++)
+        {
+            printf("Digite um termo da matriz:");
+            scanf("%d", &matriz[i][j]);
+        }
+    }
+    printf("A matriz digitada foi:\n");
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 2; j++)
+        {
+            printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
